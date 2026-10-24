@@ -24,6 +24,10 @@ namespace RestaurantApp
                 Console.WriteLine($"{item.Id}. {item.Name} ({item.Thype}) - poine; {item.point}");
 
             }
+            var amount = restaurants.Count();
+            var avg = restaurants.Average(x => x.point);
+            Console.WriteLine($"Total is {amount}");
+            Console.WriteLine($"Average is {avg}");
         }
         public class Restaurant
         {
