@@ -15,3 +15,10 @@ namespace RestaurantApp
 
     }
 }
+public class Restaurant
+{
+    public string Id { get; set; }
+    public string Name { get; set; }
+    public string Thype { get; set; }
+    public double point { get; set; }
+}
