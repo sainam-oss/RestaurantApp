@@ -28,6 +28,9 @@ namespace RestaurantApp
             var avg = restaurants.Average(x => x.point);
             Console.WriteLine($"Total is {amount}");
             Console.WriteLine($"Average is {avg}");
+
+
+            Console.WriteLine("End");
         }
         public class Restaurant
         {
